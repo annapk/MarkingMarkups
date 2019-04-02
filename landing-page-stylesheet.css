@@ -1,0 +1,45 @@
+/* p {text-transform: uppercase;} keep for later, maybe will be uppercase eventually, but let's first do without uppercase and test some other fonts instead */
+
+
+#div1 {
+    position: relative;
+    height: 100vh;
+    
+}
+
+img {
+    width: 100%;
+   position: absolute; 
+}
+
+
+#div1:hover img {
+    transform: scale(1.5) translateX(-200px) translateY(-100px);
+        transition: all 5s;
+}
+
+#div1:hover p {
+    opacity: 1;
+    font-size: 48px; 
+
+    color: white; 
+    transition: all 7s;
+
+}
+
+#div2 p {
+    font-family: Arial; 
+    font-size: 18px; 
+    opacity: 0; 
+    
+    
+}
+
+#div2 {
+    position: absolute; 
+}
+
+#div3 {
+   position: relative;
+    height: 100vh; 
+}
