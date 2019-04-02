@@ -1,11 +1,18 @@
 /* p {text-transform: uppercase;} keep for later, maybe will be uppercase eventually, but let's first do without uppercase and test some other fonts instead */
 
+body {
+    margin: 0;
+  
+}
+
 
 #div1 {
     position: relative;
     height: 100vh;
+      overflow: hidden; 
     
 }
+
 
 img {
     width: 100%;
@@ -15,31 +22,88 @@ img {
 
 #div1:hover img {
     transform: scale(1.5) translateX(-200px) translateY(-100px);
-        transition: all 5s;
+        transition: all 7s;
 }
+
 
 #div1:hover p {
     opacity: 1;
     font-size: 48px; 
 
     color: white; 
-    transition: all 7s;
-
+    transition: all 8s;
+    
 }
 
 #div2 p {
-    font-family: Arial; 
-    font-size: 18px; 
+    font-family: 'Exo', sans-serif, Arial; 
+    font-size: 26px; 
     opacity: 0; 
-    
-    
+    padding: 0.5em; 
 }
+
 
 #div2 {
     position: absolute; 
 }
 
+
 #div3 {
    position: relative;
     height: 100vh; 
+}
+
+#div3:hover img {
+    transform: scale(1.5) translateY(-100px);
+        transition: all 5s;
+}
+
+#div3:hover p {
+    opacity: 1;
+    font-size: 48px; 
+
+    color: black; 
+    transition: all 8s;
+    
+}
+
+#div31 {
+    background-color: rgba(255,255,255,0.3);
+    position: relative; 
+   
+}
+
+
+
+#div4 p, #div6 p {
+    font-family: 'Exo', sans-serif, Arial; 
+    font-size: 26px; 
+    opacity: 0; 
+    padding: 0.5em; 
+}
+
+
+#div5 {
+    position: relative;
+    height: 100vh;
+ 
+    
+}
+
+#div6 {
+    position: absolute; 
+}
+
+#div5:hover img {
+    transform: scale(1.8) translateX(40px) translateY(-40px);
+        transition: all 8s;
+}
+
+#div5:hover p {
+    opacity: 1;
+    font-size: 38px; 
+    padding-left: 3em;
+    color: white; 
+    transition: all 8s;
+    
 }
