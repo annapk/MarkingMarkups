@@ -100,6 +100,10 @@ p {
     
 }
 
+#div7 img {
+    translateY(-40px);
+}
+
 #div7:hover img {
     transform: scale(1.2) translateX(20px) translateY(-80px);
     transition: all 7s;
@@ -121,7 +125,7 @@ p {
 }
 
 #div9 img {
-    translateY(20px)
+    translateY(-80px);
 }
 
 #div9:hover img {
