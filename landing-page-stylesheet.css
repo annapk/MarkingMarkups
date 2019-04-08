@@ -120,6 +120,10 @@ p {
     padding: 0.5em; 
 }
 
+#div9 img {
+    translatey(-20)
+}
+
 #div9:hover img {
     transform: scale(1.2) translateX(-80px) translateY(-120px);
     transition: all 7s;
