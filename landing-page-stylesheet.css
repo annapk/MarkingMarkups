@@ -125,11 +125,11 @@ p {
 }
 
 #div9 img {
-    translateY(-80px);
+    transform: scale(1.2) translateY(-80px);
 }
 
 #div9:hover img {
-    transform: scale(1.2) translateX(-80px) translateY(-120px);
+    transform: scale(1.4) translateX(-80px) translateY(-120px);
     transition: all 7s;
 }
 
