@@ -121,7 +121,7 @@ p {
 }
 
 #div9 img {
-    translatey(-20)
+    translateY(20px)
 }
 
 #div9:hover img {
