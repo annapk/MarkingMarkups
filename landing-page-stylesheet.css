@@ -1,4 +1,3 @@
-/* p {text-transform: uppercase;} keep for later, maybe will be uppercase eventually, but let's first do without uppercase and test some other fonts instead */
 
 body {
     margin: 0;
@@ -138,4 +137,14 @@ p {
     color: black; 
     opacity: 0; 
     padding: 0.5em; 
+}
+
+a {
+    font-family: 'Exo', sans-serif, Arial; 
+    font-size: 26px; 
+    color: black; 
+}
+
+a:hover {
+    font-size: 28px; 
 }
