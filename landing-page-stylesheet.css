@@ -6,17 +6,25 @@ body {
 }
 
 
-#div1 {
-    position: relative;
-    height: 100vh;
-      overflow: hidden; 
-    
+div {
+    position: relative; 
+    margin-bottom: 20px;
+    overflow: hidden; 
+    height: 100vh; 
 }
 
 
 img {
     width: 100%;
-   position: absolute; 
+}
+
+p {
+    position: absolute;
+    left:0; right:0;
+    top:0;
+}
+p.styled{
+    
 }
 
 
@@ -35,15 +43,11 @@ img {
     
 }
 
-#div2 p {
+#div1 p {
     font-family: 'Exo', sans-serif, Arial; 
     font-size: 26px; 
     opacity: 0; 
     padding: 0.5em; 
-}
-
-
-#div2 {
     position: absolute; 
 }
 
@@ -51,47 +55,37 @@ img {
 #div3 {
    position: relative;
     height: 100vh; 
+    overflow: hidden; 
 }
 
 #div3:hover img {
-    transform: scale(1.5) translateY(-100px);
+    transform: scale(1.5) translateY(80px);
         transition: all 5s;
 }
 
 #div3:hover p {
     opacity: 1;
     font-size: 48px; 
-
+   
     color: black; 
     transition: all 8s;
     
 }
 
-#div31 {
-    background-color: rgba(255,255,255,0.3);
-    position: relative; 
-   
+#div3 p {
+    background-color: rgba(255,255,255,0.3); 
+    font-family: 'Exo', sans-serif, Arial; 
+    font-size: 26px; 
+    opacity: 0; 
+    padding: 0.5em;   
 }
 
 
-
-#div4 p, #div6 p {
+#div5 p {
     font-family: 'Exo', sans-serif, Arial; 
     font-size: 26px; 
     opacity: 0; 
     padding: 0.5em; 
-}
-
-
-#div5 {
-    position: relative;
-    height: 100vh;
- 
-    
-}
-
-#div6 {
-    position: absolute; 
 }
 
 #div5:hover img {
@@ -105,5 +99,45 @@ img {
     padding-left: 3em;
     color: white; 
     transition: all 8s;
+    background-color: rgba(0,0,0,0.3);
     
+}
+
+#div7:hover img {
+    transform: scale(1.2) translateX(20px) translateY(-80px);
+    transition: all 7s;
+}
+
+#div7:hover p {
+    opacity: 1;
+    transition: all 8s;
+    background-color: rgba(255,255,255,0.3);
+     
+}
+
+#div7 p {
+    font-family: 'Exo', sans-serif, Arial; 
+    font-size: 32px; 
+    color: black; 
+    opacity: 0; 
+    padding: 0.5em; 
+}
+
+#div9:hover img {
+    transform: scale(1.2) translateX(-80px) translateY(-120px);
+    transition: all 7s;
+}
+
+#div9:hover p {
+    opacity: 1;
+    transition: all 8s;
+    background-color: rgba(255,255,255,0.3);  
+}
+
+#div9 p {
+    font-family: 'Exo', sans-serif, Arial; 
+    font-size: 32px; 
+    color: black; 
+    opacity: 0; 
+    padding: 0.5em; 
 }
