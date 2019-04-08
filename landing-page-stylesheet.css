@@ -101,7 +101,7 @@ p {
 }
 
 #div7 img {
-    transform: scale(0.9) translateY(-40px);
+    transform: translateY(-30px);
 }
 
 #div7:hover img {
