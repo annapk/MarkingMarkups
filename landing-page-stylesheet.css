@@ -143,6 +143,7 @@ a {
     font-family: 'Exo', sans-serif, Arial; 
     font-size: 26px; 
     color: black; 
+    decoration: none; 
 }
 
 a:hover {
